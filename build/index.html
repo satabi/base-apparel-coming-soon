@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <main id="main">
+      <header class="header">
+        <nav class="header__nav">
+          <div class="header-menu__logo">
+            <a href="#" class="header__logo"></a>
+          </div>
+        </nav>
+      </header>
+      <section class="viewport">
+        <div class="coming-soon">
+          <div class="coming-soon__left-panel">
+            <div class="content-container">
+              <div class="content-overlay">
+                <div class="element-header">
+                  <span class="header-span"> we're </span>
+                  <h1 class="main-header">coming soon</h1>
+                </div>
+                <div class="element-paragraph">
+                  <p>
+                    Hello fellow shoppers! We’re currently building our new
+                    fashion store. Add your email below to stay up-to-date with
+                    announcements and our launch deals.
+                  </p>
+                </div>
+              </div>
+              <form id="form" class="form">
+                <div class="form__group">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    aria-label="Email Adress"
+                    class="form-control"
+                    id="email-address"
+                  />
+                  <img
+                    src="./images/icon-error.svg"
+                    alt=""
+                    class="icon-error"
+                  />
+                  <div class="err-message"><span>Error Message</span></div>
+                </div>
+                <button type="submit" class="form__button">
+                  <img src="./images/icon-arrow.svg" alt="" />
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="coming-soon__right-panel">
+            <img
+              src="./images/hero-desktop.jpg"
+              alt=""
+              class="hero-img-desktop"
+            />
+            <img
+              src="./images/hero-mobile.jpg"
+              alt=""
+              class="hero-img-mobile"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
